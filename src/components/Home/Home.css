@@ -1,0 +1,22 @@
+.home {
+	background: url("../../images/cover.jpg");
+	background-color: #888;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+  height: 100%;
+	padding: 0;
+  background-size: cover;
+}
+
+.homeOverlay {
+  background-color: rgba(50, 60, 80, 0.05);
+  background-image: url("../../images/pattern.png");
+  background-repeat: repeat;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
