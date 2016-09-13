@@ -1,6 +1,7 @@
 .home {
+	color: #fff;
 	background: url("../../images/cover.jpg");
-	background-color: #222;
+	background-color: #fff;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: 50% 0px;
@@ -10,7 +11,6 @@
 }
 
 .homeOverlay {
-  background-color: rgba(50, 60, 80, 0.05);
   background-image: url("../../images/pattern.png");
   background-repeat: repeat;
   height: 100%;
