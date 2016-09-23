@@ -2,6 +2,16 @@ import React, {Component} from 'react';
 import styles from './Home.css';
 import ScrollDown from '../ScrollDown/ScrollDown';
 import TypeWriter from 'react-typewriter';
+import Scroll from 'react-scroll';
+import About from '../About/About';
+import Footer from '../Footer/Footer';
+
+const Link       = Scroll.Link;
+const DirectLink = Scroll.DirectLink;
+const Element    = Scroll.Element;
+const Events     = Scroll.Events;
+const scroll     = Scroll.animateScroll;
+const scrollSpy  = Scroll.scrollSpy;
 
 export default class Main extends Component {
   render() {
@@ -12,13 +22,18 @@ export default class Main extends Component {
           <TypeWriter typing={1} minDelay={35}>
             <span style={{fontSize: '3em', position: 'absolute', top: "10px", left: "10px"}}>
               > Hello world!<br />
-              > I'm Goutham Reddy<br />
+              > I&apos;m Goutham Reddy<br />
               > Welcome to my personal website
             </span>
           </TypeWriter>
-          <ScrollDown />
+          <Link className="About" to="About" smooth={true} duration={500} ><ScrollDown /></Link>
         </section>
+        <Element name="About" className="element">
+          <About />
+        </Element>
+        <Footer />
       </section>
+
     );
   }
 }

@@ -14,6 +14,12 @@
       "jsx": true
     }
   },
+  "settings": {
+    "import/ignore": [
+      "node_modules",
+      ".(json|png|jpg|svg|css)$"
+    ]
+  },
   "env": {
     "es6": true,
     "browser": true,
