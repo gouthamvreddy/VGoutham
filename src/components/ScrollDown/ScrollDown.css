@@ -1,4 +1,5 @@
 .scrollDown {
+	cursor: pointer;
 	background-color: transparent;
 	position: absolute;
 	left: 50%;

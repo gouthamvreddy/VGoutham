@@ -5,8 +5,9 @@ import Profile from '../../images/profile.jpg';
 const About = () => {
   return (
     <div className={styles.about}>
+      <h2>THIS IS WHAT I DO</h2>
       <img src={Profile} />
-      <h1>Im a software developer</h1>
+      I&apos;m a software developer
     </div>
   );
 };
