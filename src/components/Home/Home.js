@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import styles from './Home.css';
-import ScrollDown from '../ScrollDown/ScrollDown';
+import AnimatedChevronButton from '../AnimatedChevronButton/AnimatedChevronButton';
 import TypeWriter from 'react-typewriter';
 import Scroll from 'react-scroll';
 import About from '../About/About';
@@ -26,7 +26,7 @@ export default class Main extends Component {
               > Welcome to my personal website
             </span>
           </TypeWriter>
-          <Link className="About" to="About" smooth={true} duration={500} ><ScrollDown /></Link>
+          <Link className="About" to="About" smooth={1} duration={500} ><AnimatedChevronButton /></Link>
         </section>
         <Element name="About" className="element">
           <About />

@@ -1,4 +1,4 @@
-.scrollDown {
+.animatedChevronButton {
 	cursor: pointer;
 	background-color: transparent;
 	position: absolute;
@@ -14,7 +14,7 @@
   text-align: center;
 }
 
-.scrollDown img{
+.animatedChevronButton img{
 	width: 1.5em;
   position: relative;
   color: #fff;
