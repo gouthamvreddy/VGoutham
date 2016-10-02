@@ -1,13 +1,24 @@
 import React from 'react';
+import {Row, Col} from 'react-flexbox-grid/lib';
+
 import styles from './About.css';
+import SectionTitle from '../SectionTitle/SectionTitle';
 import Profile from '../../images/profile.jpg';
 
 const About = () => {
   return (
     <div className={styles.about}>
-      <h2>THIS IS WHAT I DO</h2>
-      <img src={Profile} />
-      I&apos;m a software developer
+      <SectionTitle title={"This is WHo I Am"} />
+      <Row>
+        <Col xs={11} sm={6} md={4} lg={4}>
+          <img src={Profile} />
+        </Col>
+        <Col xs={11} sm={6} md={8} lg={8}>
+          <div className={styles.aboutMeText}>
+            I&apos;m a software developer
+          </div>
+        </Col>
+      </Row>
     </div>
   );
 };
