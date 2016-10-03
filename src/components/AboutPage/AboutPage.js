@@ -1,7 +1,7 @@
 import React from 'react';
 import {Row, Col} from 'react-flexbox-grid/lib';
 
-import styles from './About.css';
+import styles from './AboutPage.css';
 import SectionTitle from '../SectionTitle/SectionTitle';
 import Profile from '../../images/profile.jpg';
 

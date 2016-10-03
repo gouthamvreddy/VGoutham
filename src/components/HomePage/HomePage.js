@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import styles from './Home.css';
+import styles from './HomePage.css';
 import AnimatedChevronButton from '../AnimatedChevronButton/AnimatedChevronButton';
 import Typist from 'react-typist';
 import Scroll from 'react-scroll';
-import About from '../About/About';
+import AboutPage from '../AboutPage/AboutPage';
 import Footer from '../Footer/Footer';
 
 const Link       = Scroll.Link;
@@ -27,7 +27,7 @@ export default class Main extends Component {
           <Link className="About" to="About" smooth={Boolean(true)} duration={500} ><AnimatedChevronButton /></Link>
         </section>
         <Element name="About" className="element">
-          <About />
+          <AboutPage />
         </Element>
         <Footer />
       </section>
