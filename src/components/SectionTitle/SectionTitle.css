@@ -3,4 +3,14 @@
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
+  padding: 2%;
+  font-size: 30px;
+  margin: 0;
+}
+
+.sectionUnderline {
+  background: rgba(135, 135, 135, 0.5);
+  width: 150px;
+  height: 1px;
+  margin: 0 auto 30px auto;
 }

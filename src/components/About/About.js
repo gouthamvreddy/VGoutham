@@ -10,10 +10,10 @@ const About = () => {
     <div className={styles.about}>
       <SectionTitle title={"This is WHo I Am"} />
       <Row>
-        <Col xs={11} sm={6} md={4} lg={4}>
+        <Col xs={12} sm={6} md={5} lg={5}>
           <img src={Profile} />
         </Col>
-        <Col xs={11} sm={6} md={8} lg={8}>
+        <Col xs={11} sm={6} md={7} lg={7}>
           <div className={styles.aboutMeText}>
             I&apos;m a software developer
           </div>
