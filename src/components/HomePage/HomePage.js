@@ -4,14 +4,9 @@ import AnimatedChevronButton from '../AnimatedChevronButton/AnimatedChevronButto
 import Typist from 'react-typist';
 import Scroll from 'react-scroll';
 import AboutPage from '../AboutPage/AboutPage';
-import Footer from '../Footer/Footer';
 
 const Link       = Scroll.Link;
-const DirectLink = Scroll.DirectLink;
 const Element    = Scroll.Element;
-const Events     = Scroll.Events;
-const scroll     = Scroll.animateScroll;
-const scrollSpy  = Scroll.scrollSpy;
 
 export default class Main extends Component {
   render() {
@@ -29,7 +24,6 @@ export default class Main extends Component {
         <Element name="About" className="element">
           <AboutPage />
         </Element>
-        <Footer />
       </section>
 
     );
