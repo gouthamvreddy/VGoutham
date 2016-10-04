@@ -3,6 +3,7 @@ import {Row, Col} from 'react-flexbox-grid/lib';
 
 import styles from './ContactPage.css';
 import SectionTitle from '../SectionTitle/SectionTitle';
+import ContactLinks from '../ContactLinks/ContactLinks';
 import Footer from '../Footer/Footer';
 
 const About = () => {
@@ -10,11 +11,11 @@ const About = () => {
     <div>
       <div className={styles.contactPage}>
         <SectionTitle title={"Get In TOuch"} />
+        <ContactLinks />
         <Row>
-          <Col xs={11} sm={6} md={7} lg={7}>
-            <div className={styles.aboutMeText}>
-              I&apos;m a software developer
-            </div>
+          <Col className={styles.contactInfo} xs={10} xsOffset={1} sm={8} smOffset={2} md={6} mdOffset={3} lg={6} lgOffset={3}>
+            I&apos;m available for contract or full-time roles in the Seattle area.
+            If you have questions or need help on a project please feel free to contact me.
           </Col>
         </Row>
       </div>

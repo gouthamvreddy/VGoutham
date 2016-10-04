@@ -1,6 +1,6 @@
 # My personal website - [VGoutham.com](http://www.vgoutham.com)
 
-Hosted on Amazon S3 with Route 53 for DNS
+Built in React, hosted on Amazon S3 with Route 53 for DNS
 
 #### Features
 
@@ -25,3 +25,5 @@ npm run build
 #### TODOS
 
 - Obtain SSL Certificate
+- Routing [react-router-scroll](https://github.com/taion/react-router-scroll)
+- Animate contact page icons after scroll [react-motion](https://github.com/chenglou/react-motion)?

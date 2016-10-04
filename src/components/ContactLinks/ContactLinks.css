@@ -1,0 +1,30 @@
+.contactCol {
+	text-align: center;
+	margin-top: 60px;
+}
+
+.contactLinks {
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	bottom: 40px;
+	height: 20px;
+	width: 50px;
+}
+
+.contactLinks img{
+	text-align: center;
+	width: 2.5em;
+  position: relative;
+  color: #fff;
+	background-color: transparent;
+	margin: 3px;
+	border: none;
+}
+
+.contactLinks img:hover {
+	margin: 0px;
+	background-color: #E7746F;
+	border: 3px solid #E7746F;
+	border-radius: 8px;
+}
