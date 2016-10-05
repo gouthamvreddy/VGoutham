@@ -2,33 +2,28 @@ import React from 'react';
 import {Row, Col} from 'react-flexbox-grid/lib';
 
 import styles from './ContactLinks.css';
-import twitterLogo from '../../images/twitter-logo.svg';
-import linkedinLogo from '../../images/linkedin-sign.svg';
-import facebookLogo from '../../images/facebook-logo.svg';
-import githubLogo from '../../images/github-sign.svg';
-import mailLogo from '../../images/mail-logo.svg';
 
 const ContactLinks = () => {
     return (
       <Row>
-        <Col className={styles.contactCol} xsOffset={0} xs={3} md={3} lg={1} lgOffset={4}>
+        <Col className={styles.contactCol} xsOffset={2} xs={2} sm={2} smOffset={2} md={1} mdOffset={4} lg={1} lgOffset={4}>
           <section className={styles.contactLinks}>
-            <a href="https://www.linkedin.com/in/gouthamvreddy"><img src={linkedinLogo} /></a>
+            <a href="https://plus.google.com/u/0/+GouthamReddy5" className={styles.icon + ' ' + styles.iconCube + ' ' + styles.googleplus}>Google</a>
           </section>
         </Col>
-        <Col className={styles.contactCol} xs={3} md={3} lg={1}>
+        <Col className={styles.contactCol} xs={2} sm={2} md={1} lg={1}>
           <section className={styles.contactLinks}>
-            <a href="http://twitter.com/9outham"><img src={twitterLogo} /></a>
+            <a href="http://twitter.com/9outham" className={styles.icon + ' ' + styles.iconCube + ' ' + styles.twitter}>Twitter</a>
           </section>
         </Col>
-        <Col className={styles.contactCol} xs={3} md={3} lg={1}>
+        <Col className={styles.contactCol} xs={2} sm={2} md={1} lg={1}>
           <section className={styles.contactLinks}>
-            <a href="https://github.com/gouthamvreddy"><img src={githubLogo} /></a>
+            <a href="https://github.com/gouthamvreddy" className={styles.icon + ' ' + styles.iconCube + ' ' + styles.github}>Github</a>
           </section>
         </Col>
-        <Col className={styles.contactCol} xs={3} md={3} lg={1}>
+        <Col className={styles.contactCol} xs={2} sm={2} md={1} lg={1}>
           <section className={styles.contactLinks}>
-            <a href="mailto:gouthamvreddy@gmail.com?Subject=Hello" target="_top"><img src={mailLogo} /></a>
+            <a href="https://facebook.com/goreddy" className={styles.icon + ' ' + styles.iconCube + ' ' + styles.facebook}>Facebook</a>
           </section>
         </Col>
       </Row>
