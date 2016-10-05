@@ -1,11 +1,15 @@
+.contactCol {
+  text-align: center;
+}
 
 .icon {
   display: inline-block;
   vertical-align: top;
   overflow: hidden;
   margin: 4px;
-  width: 96px;
-  height: 96px;
+  margin-top: 60px;
+  width: 80px;
+  height: 80px;
   font-size: 0;
   text-indent: -9999px;
 }
