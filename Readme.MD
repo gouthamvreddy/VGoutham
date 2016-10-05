@@ -26,6 +26,7 @@ npm run build
 
 - Obtain SSL Certificate
 - ~~Make social link icons better~~
+- Add skills & projects page
 - Add loading spin icon before page load
 - Url routing [react-router-scroll](https://github.com/taion/react-router-scroll)
 - Animate contact page icons into place after scroll [react-motion](https://github.com/chenglou/react-motion)?

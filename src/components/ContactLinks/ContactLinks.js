@@ -18,7 +18,7 @@ const ContactLinks = () => {
         </Col>
         <Col className={styles.contactCol} xs={6} sm={2} md={2} lg={2}>
           <section className={styles.contactLinks}>
-            <a href="https://github.com/gouthamvreddy" className={styles.icon + ' ' + styles.iconCube + ' ' + styles.github}>Github</a>
+            <a href="https://github.com/vgoutham" className={styles.icon + ' ' + styles.iconCube + ' ' + styles.github}>Github</a>
           </section>
         </Col>
         <Col className={styles.contactCol} xs={6} sm={2} md={2} lg={2}>

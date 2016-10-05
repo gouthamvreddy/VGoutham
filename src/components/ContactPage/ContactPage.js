@@ -14,8 +14,9 @@ const About = () => {
         <ContactLinks />
         <Row>
           <Col className={styles.contactInfo} xs={10} xsOffset={1} sm={8} smOffset={2} md={6} mdOffset={3} lg={6} lgOffset={3}>
-            I&apos;m available for contract or full-time roles in the Seattle area.
-            If you have questions or need help on a project please feel free to contact me.
+            I&apos;m currently available for full-time or contract software developer positions in the Seattle region.
+            If you have questions or would like to work with me on a project, please feel free to connect or send me an
+             email: <a href="mailto:gouthamvreddy@gmail.com?Subject=Hello" target="_top">gouthamvreddy@gmail.com</a>.
           </Col>
         </Row>
       </div>
