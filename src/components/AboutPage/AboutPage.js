@@ -20,7 +20,7 @@ const About = () => {
           <Col xs={12} sm={6} md={5} lg={5}>
             <img className={styles.pictureCard} src={Profile} />
           </Col>
-          <Col xs={11} sm={6} md={7} lg={7}>
+          <Col xs={12} sm={6} md={7} lg={7}>
             <div className={styles.aboutMeText}>
               <p>
               After leaving my job in the Bay area, I spent a year traveling -
@@ -36,9 +36,9 @@ const About = () => {
               </p>
             </div>
           </Col>
-        </Row>
-        <Row>
-          <Link className="Contact" to="Contact" smooth={Boolean(true)} duration={500} ><ChevronButton /></Link>
+          <Col xs={12}>
+            <Link className="Contact" to="Contact" smooth={Boolean(true)} duration={500} ><ChevronButton /></Link>
+          </Col>
         </Row>
       </div>
       <Element name="Contact" className="element">
