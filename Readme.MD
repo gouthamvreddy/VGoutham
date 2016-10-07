@@ -7,6 +7,7 @@ Built in React, hosted on Amazon S3 with Route 53 for DNS
 - CSS Modules
 - [react-scroll](https://github.com/fisshy/react-scroll)
 - [react-typist](https://github.com/jstejada/react-typist)
+- [react-flexbox-grid](https://github.com/roylee0704/react-flexbox-grid)
 
 #### Installation
 

@@ -28,14 +28,14 @@
   margin-top: 0px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
   .about {
-    height: 130vh;
+    height: 200vh;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .about {
-    height: 225vh;
+    height: 240vh;
   }
 }
