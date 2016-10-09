@@ -16,11 +16,4 @@
 .chevronButton img{
 	width: 2.5em;
   position: relative;
-  color: #fff;
-	filter: drop-shadow(5px 5px 5px #222);
-}
-
-.chevronButton img:hover{
-	width: 2.8em;
-	transition: all 0.3s linear;
 }

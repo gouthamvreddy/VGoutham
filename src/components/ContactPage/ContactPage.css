@@ -12,6 +12,12 @@
   margin-top: 60px;
 }
 
+.contactInfo a {
+  text-decoration: none;
+  color: #d56c68;
+  border-bottom: 1px dotted #595959;
+}
+
 @media only screen and (max-width: 500px) {
   .contactPage {
     height: 125vh;
