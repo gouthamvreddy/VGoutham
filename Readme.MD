@@ -25,7 +25,7 @@ npm run build
 
 #### TODOS
 
-- Obtain SSL Certificate
+- ~~Obtain SSL Certificate~~
 - ~~Make social link icons better~~
 - Add skills & projects page
 - Add loading spin icon before page load
